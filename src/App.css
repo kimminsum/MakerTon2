@@ -1,0 +1,113 @@
+.background
+{
+  width: 23.4375rem;
+  height: 50.75rem;
+  
+  border: 0.02rem solid black;
+}
+
+/* Top navigation */
+.top_nav
+{
+    display: inline-flex;
+    height: 6.3125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8125rem;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--line_gray, #ECF0F2);
+    background: #FFF;
+}
+
+.status_bar_top
+{
+    display: flex;
+    width: 23.4375rem;
+    height: 3.375rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6.67938rem;
+    flex-shrink: 0;
+}
+.time
+{
+    height: 3.375rem;
+    flex: 1 0 0;
+}
+.levels
+{
+    height: 3.375rem;
+    flex: 1 0 0;
+}
+
+.status_bar_bottom
+{
+    display: flex;
+    width: 23.4375rem;
+    height: 3.375rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6.67938rem;
+    flex-shrink: 0;
+}
+.title
+{
+    color: #282E34;
+    text-align: center;
+    
+    /* bold */
+    font-family: Pretendard;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mid_nav
+{
+    display: inline-flex;
+    height: 6.3125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8125rem;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--line_gray, #ECF0F2);
+    background: #FFF;
+}
+.caution
+{
+    display: inline-flex;
+    padding: 0.25rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.check_list_check_pack
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+.check_list
+{
+    display: flex;
+    width: 20.4375rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.check_list_top
+{
+    display: flex;
+}
+.check_list_bottom
+{
+
+}
+.check_list_btn
+{
+    display: flex;
+}
